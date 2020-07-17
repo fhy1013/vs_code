@@ -21,3 +21,9 @@ void TestFunc1(int x) {
         std::cout << -x << std::endl;
     }
 }
+
+void Test1() {
+    unsigned short s = 0x2704;
+    auto x = s >> 8;
+    std::cout << x;
+}

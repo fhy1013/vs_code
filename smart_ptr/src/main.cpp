@@ -3,11 +3,11 @@
 #include "test.h"
 
 int main() {
-  std::cout << "hello..." << std::endl;
+    std::cout << "hello..." << std::endl;
 
-  Test();
+    Test();
 
-  TestFunc1(2);
+    TestFunc1(2);
 
-  return 0;
+    return 0;
 }

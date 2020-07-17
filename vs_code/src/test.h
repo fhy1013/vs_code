@@ -5,4 +5,6 @@ bool Test();
 
 void TestFunc1(int x);
 
+void Test1();
+
 #endif  // _TEST_H_

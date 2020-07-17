@@ -22,7 +22,7 @@ class Singleton {
    private:
     Singleton() {}
     Singleton(const Singleton& rsh) = delete;
-    Singleton& operator(const Singleton& rsh) = delete;
+    Singleton& operator=(const Singleton& rsh) = delete;
 
     static Singleton* instance_;
     static std::mutex mtx_;
